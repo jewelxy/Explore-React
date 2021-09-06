@@ -1,0 +1,8 @@
+.userDiv{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightcoral;
+    border: 1px solid rgba(240, 128, 128, 0.753);
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+}
