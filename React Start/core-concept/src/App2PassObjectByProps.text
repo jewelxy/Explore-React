@@ -1,0 +1,42 @@
+import './App.css';
+
+function App() {
+    const products = [
+        {name : 'Walton Refrigerator' , price : '৳ 25000' },
+        {name : 'Marchent Refrigerator' , price : '৳ 20000' },
+        {name : 'Eco Plus Refrigerator' , price : '৳ 35000' },
+
+    ]
+ 
+  return (
+    <div className="App">
+      <header className="App-header">
+         <Refrigerator element={products[0]} ></Refrigerator>
+         <Refrigerator element={products[1]} ></Refrigerator>
+         <Refrigerator element={products[2]} ></Refrigerator>
+      </header> 
+    </div>
+  );
+}
+
+function Refrigerator(props){
+    const style = {
+        border : '1px solid grey',
+        backgroundColor: 'lightgrey',
+        height : '300px',
+        width : '250px',
+        borderRadious :'5px'
+    }
+
+    const {name,price} = props.element;
+    return(
+        <div style={style}>
+            <h3>{name}</h3>
+            <h2>{price}</h2>
+            <button>Buy Now</button>
+        </div>
+    );
+}
+
+
+export default App;

@@ -1,0 +1,35 @@
+import { useState } from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <Counter></Counter>
+      </header> 
+    </div>
+  );
+}
+function Counter(){
+    const [count,setCount] = useState(5);
+    //Increase 
+    const handleIncrease = () =>{
+        const newCount = count+1;
+        setCount(newCount);
+    }
+
+    //Decrease
+    const handleDecrease = () =>{
+        const newDecrease = count -1;
+        setCount(newDecrease);
+    }
+    return(
+            <div>
+                <h3>Count : {count}</h3>
+                <button onClick={handleIncrease}>Increase</button>
+                <button onClick={handleDecrease}>Decrease</button>
+            </div>
+    );
+}
+
+export default App;
