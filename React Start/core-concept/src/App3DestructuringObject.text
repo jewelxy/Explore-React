@@ -29,7 +29,7 @@ function Refrigerator(props){
         borderRadious :'5px'
     }
 
-    const {name,price} = props.atrProduct;
+    const {name,price} = props.atrProduct;   //Destructuring object
     return(
         <div style={style}>
             <h3>{name}</h3>
