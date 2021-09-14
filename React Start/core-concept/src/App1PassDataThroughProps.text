@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <h1>Hi I am {person.name} and I am a {person.profession}</h1>
+       <h1>Hi I am {person.name} and I am a {person.profession}</h1> //Load data from object
       <p>{person.text}</p>
       <ProjectWork name="Ecommerce" details="Dynamic SEO and User Friendly"></ProjectWork>
       <ProjectWork name="Invoce Managment System" details="Easy to provide pauch"></ProjectWork>
