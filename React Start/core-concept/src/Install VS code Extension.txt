@@ -1,0 +1,14 @@
+# 1. Auto Import
+# 2. Code Spell Checker
+# 3. ES7 React/Redux/GraphQL/React-Native snippets
+# 4. ESLint
+# 5. JavaScript (ES6) code snippets
+# 6. Live Server
+# 7. Material Icon Theme
+# 8. npm
+# 9. npm Intellisense
+# 10. Path Intellisense
+# 11. React Extension Pack
+# 12. Reactjs code snippets
+# 13. Search node_modules
+
